@@ -1,0 +1,418 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		D0CA28001AA3773900ED780E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA27FF1AA3773900ED780E /* AppDelegate.swift */; };
+		D0CA28071AA3773900ED780E /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D0CA28061AA3773900ED780E /* Images.xcassets */; };
+		D0CA280A1AA3773900ED780E /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = D0CA28081AA3773900ED780E /* LaunchScreen.xib */; };
+		D0CA28161AA3773900ED780E /* IndependentRotationWithCameraTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA28151AA3773900ED780E /* IndependentRotationWithCameraTests.swift */; };
+		D0CA28211AA3776C00ED780E /* FixedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA281F1AA3776C00ED780E /* FixedViewController.swift */; };
+		D0CA28221AA3776C00ED780E /* RotatingViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0CA28201AA3776C00ED780E /* RotatingViewController.swift */; };
+		D0F8E8621AA378E400309A78 /* CameraManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0F8E8611AA378E400309A78 /* CameraManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		D0CA28101AA3773900ED780E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D0CA27F21AA3773900ED780E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = D0CA27F91AA3773900ED780E;
+			remoteInfo = IndependentRotationWithCamera;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		D0CA27FA1AA3773900ED780E /* IndependentRotationWithCamera.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = IndependentRotationWithCamera.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CA27FE1AA3773900ED780E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CA27FF1AA3773900ED780E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		D0CA28061AA3773900ED780E /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		D0CA28091AA3773900ED780E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		D0CA280F1AA3773900ED780E /* IndependentRotationWithCameraTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = IndependentRotationWithCameraTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		D0CA28141AA3773900ED780E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D0CA28151AA3773900ED780E /* IndependentRotationWithCameraTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IndependentRotationWithCameraTests.swift; sourceTree = "<group>"; };
+		D0CA281F1AA3776C00ED780E /* FixedViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FixedViewController.swift; sourceTree = "<group>"; };
+		D0CA28201AA3776C00ED780E /* RotatingViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RotatingViewController.swift; sourceTree = "<group>"; };
+		D0F8E8611AA378E400309A78 /* CameraManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CameraManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D0CA27F71AA3773900ED780E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CA280C1AA3773900ED780E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		D0CA27F11AA3773900ED780E = {
+			isa = PBXGroup;
+			children = (
+				D0CA27FC1AA3773900ED780E /* IndependentRotationWithCamera */,
+				D0CA28121AA3773900ED780E /* IndependentRotationWithCameraTests */,
+				D0CA27FB1AA3773900ED780E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		D0CA27FB1AA3773900ED780E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA27FA1AA3773900ED780E /* IndependentRotationWithCamera.app */,
+				D0CA280F1AA3773900ED780E /* IndependentRotationWithCameraTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		D0CA27FC1AA3773900ED780E /* IndependentRotationWithCamera */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA27FF1AA3773900ED780E /* AppDelegate.swift */,
+				D0CA281F1AA3776C00ED780E /* FixedViewController.swift */,
+				D0CA28201AA3776C00ED780E /* RotatingViewController.swift */,
+				D0F8E8611AA378E400309A78 /* CameraManager.swift */,
+				D0CA28061AA3773900ED780E /* Images.xcassets */,
+				D0CA28081AA3773900ED780E /* LaunchScreen.xib */,
+				D0CA27FD1AA3773900ED780E /* Supporting Files */,
+			);
+			path = IndependentRotationWithCamera;
+			sourceTree = "<group>";
+		};
+		D0CA27FD1AA3773900ED780E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA27FE1AA3773900ED780E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D0CA28121AA3773900ED780E /* IndependentRotationWithCameraTests */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA28151AA3773900ED780E /* IndependentRotationWithCameraTests.swift */,
+				D0CA28131AA3773900ED780E /* Supporting Files */,
+			);
+			path = IndependentRotationWithCameraTests;
+			sourceTree = "<group>";
+		};
+		D0CA28131AA3773900ED780E /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				D0CA28141AA3773900ED780E /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		D0CA27F91AA3773900ED780E /* IndependentRotationWithCamera */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CA28191AA3773900ED780E /* Build configuration list for PBXNativeTarget "IndependentRotationWithCamera" */;
+			buildPhases = (
+				D0CA27F61AA3773900ED780E /* Sources */,
+				D0CA27F71AA3773900ED780E /* Frameworks */,
+				D0CA27F81AA3773900ED780E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = IndependentRotationWithCamera;
+			productName = IndependentRotationWithCamera;
+			productReference = D0CA27FA1AA3773900ED780E /* IndependentRotationWithCamera.app */;
+			productType = "com.apple.product-type.application";
+		};
+		D0CA280E1AA3773900ED780E /* IndependentRotationWithCameraTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D0CA281C1AA3773900ED780E /* Build configuration list for PBXNativeTarget "IndependentRotationWithCameraTests" */;
+			buildPhases = (
+				D0CA280B1AA3773900ED780E /* Sources */,
+				D0CA280C1AA3773900ED780E /* Frameworks */,
+				D0CA280D1AA3773900ED780E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				D0CA28111AA3773900ED780E /* PBXTargetDependency */,
+			);
+			name = IndependentRotationWithCameraTests;
+			productName = IndependentRotationWithCameraTests;
+			productReference = D0CA280F1AA3773900ED780E /* IndependentRotationWithCameraTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D0CA27F21AA3773900ED780E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = "Justin Ouellette";
+				TargetAttributes = {
+					D0CA27F91AA3773900ED780E = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					D0CA280E1AA3773900ED780E = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = D0CA27F91AA3773900ED780E;
+					};
+				};
+			};
+			buildConfigurationList = D0CA27F51AA3773900ED780E /* Build configuration list for PBXProject "IndependentRotationWithCamera" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = D0CA27F11AA3773900ED780E;
+			productRefGroup = D0CA27FB1AA3773900ED780E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D0CA27F91AA3773900ED780E /* IndependentRotationWithCamera */,
+				D0CA280E1AA3773900ED780E /* IndependentRotationWithCameraTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		D0CA27F81AA3773900ED780E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA280A1AA3773900ED780E /* LaunchScreen.xib in Resources */,
+				D0CA28071AA3773900ED780E /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CA280D1AA3773900ED780E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		D0CA27F61AA3773900ED780E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA28001AA3773900ED780E /* AppDelegate.swift in Sources */,
+				D0CA28221AA3776C00ED780E /* RotatingViewController.swift in Sources */,
+				D0F8E8621AA378E400309A78 /* CameraManager.swift in Sources */,
+				D0CA28211AA3776C00ED780E /* FixedViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0CA280B1AA3773900ED780E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D0CA28161AA3773900ED780E /* IndependentRotationWithCameraTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		D0CA28111AA3773900ED780E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = D0CA27F91AA3773900ED780E /* IndependentRotationWithCamera */;
+			targetProxy = D0CA28101AA3773900ED780E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		D0CA28081AA3773900ED780E /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				D0CA28091AA3773900ED780E /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		D0CA28171AA3773900ED780E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		D0CA28181AA3773900ED780E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		D0CA281A1AA3773900ED780E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndependentRotationWithCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		D0CA281B1AA3773900ED780E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = IndependentRotationWithCamera/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		D0CA281D1AA3773900ED780E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndependentRotationWithCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndependentRotationWithCamera.app/IndependentRotationWithCamera";
+			};
+			name = Debug;
+		};
+		D0CA281E1AA3773900ED780E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = IndependentRotationWithCameraTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/IndependentRotationWithCamera.app/IndependentRotationWithCamera";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		D0CA27F51AA3773900ED780E /* Build configuration list for PBXProject "IndependentRotationWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CA28171AA3773900ED780E /* Debug */,
+				D0CA28181AA3773900ED780E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CA28191AA3773900ED780E /* Build configuration list for PBXNativeTarget "IndependentRotationWithCamera" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CA281A1AA3773900ED780E /* Debug */,
+				D0CA281B1AA3773900ED780E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D0CA281C1AA3773900ED780E /* Build configuration list for PBXNativeTarget "IndependentRotationWithCameraTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D0CA281D1AA3773900ED780E /* Debug */,
+				D0CA281E1AA3773900ED780E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D0CA27F21AA3773900ED780E /* Project object */;
+}
