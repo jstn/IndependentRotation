@@ -85,8 +85,6 @@ class CameraManager : NSObject {
     }
 
     func captureStillImageWithOrientation(orientation: UIInterfaceOrientation) {
-        let now = NSDate()
-
         dispatch_async(_queue) {
             let connection = self._stillImageOutput.connectionWithMediaType(AVMediaTypeVideo)
             connection.videoOrientation = orientation.avOrientation
@@ -94,8 +92,8 @@ class CameraManager : NSObject {
             self._stillImageOutput.captureStillImageAsynchronouslyFromConnection(connection, completionHandler: { (buffer, error) in
                 if let b = buffer {
                     let mode = CMAttachmentMode(kCMAttachmentMode_ShouldPropagate)
-                    let metadata = CMCopyDictionaryOfAttachments(kCFAllocatorDefault, buffer, mode).takeRetainedValue() as NSDictionary
-                    let data = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(buffer)
+                    let metadata = CMCopyDictionaryOfAttachments(kCFAllocatorDefault, b, mode).takeRetainedValue() as NSDictionary
+                    let data = AVCaptureStillImageOutput.jpegStillImageNSDataRepresentation(b)
                     self._assetsLibrary.writeImageDataToSavedPhotosAlbum(data, metadata: metadata, completionBlock: nil)
                 }
 
