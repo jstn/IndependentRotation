@@ -15,12 +15,6 @@ class FixedViewController: UIViewController {
         view.backgroundColor = UIColor.blueColor()
     }
 
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-
-        view.frame = UIScreen.mainScreen().bounds
-    }
-
     override func shouldAutorotate() -> Bool {
         return false
     }

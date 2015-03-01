@@ -40,12 +40,6 @@ class FixedViewController: UIViewController {
         CameraManager.shared().stopSession()
     }
 
-    override func viewWillLayoutSubviews() {
-        super.viewWillLayoutSubviews()
-
-        view.frame = UIScreen.mainScreen().bounds
-    }
-
     override func shouldAutorotate() -> Bool {
         return false
     }
